@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "test-suite.h"
+#include "../include/test-suite.h"
 
 #define INITIAL_CAPACITY 8
 
@@ -61,8 +61,8 @@ void run_all_tests(test_suite_t *suite) {
         }
     }
 
-    printf("\nTest Summary for suite: %s", suite->name);
-    printf("Total: %zu, Passed: %zu, Failed: %zu\n", suite->count, suite->total_passed, suite->total_failed);
+    printf("\nTest Summary for suite: %s\n", suite->name);
+    printf("Total: %zu, \x1b[32mPassed: %zu\x1b[0m, \x1b[31mFailed: %zu\x1b[0m\n", suite->count, suite->total_passed, suite->total_failed);
 }
 
 void test_suite_destroy(test_suite_t *suite) {
