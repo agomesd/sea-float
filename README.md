@@ -20,6 +20,7 @@ It supports dynamic test registration, colored terminal output, and easy reuse a
 
 ## Project Structure
 
+```
 sea-float/
 ├─ include/ # Public headers
 │ └─ test-suite.h
@@ -31,6 +32,7 @@ sea-float/
 ├─ build/ # Build artifacts (library, objects, executable)
 ├─ Makefile
 └─ README.md
+```
 
 ---
 
