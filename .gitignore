@@ -1,0 +1,24 @@
+# ===============================
+# Sea-Float C Project .gitignore
+# ===============================
+
+# Build artifacts
+/build/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Backup and temporary files
+*~
+*.swp
+*.swo
+*.tmp
+
+# MacOS specific
+.DS_Store
+
+# IDE/project files (optional)
+.vscode/
+.idea/
