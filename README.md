@@ -57,16 +57,17 @@ cd sea-float
 
 `make`
 
-- This will:
-  1.  Compile the framework
+This will:
 
-  2.  Compile test files
+1.  Compile the framework
 
-  3.  Link build/sea-float executable
+2.  Compile test files
 
-  4.  Run tests with colored output and a summary
+3.  Link build/sea-float executable
 
-3. Clean build artifacts:
+4.  Run tests with colored output and a summary
+
+5.  Clean build artifacts:
 
 `make clean`
 
@@ -131,18 +132,6 @@ Total: 2, Passed: 1, Failed: 1
 
 ---
 
-## Contributing
-
-Contributions are welcome! You can:
-
-Add new features
-
-Improve colored output or formatting
-
-Extend framework to support test fixtures or parameterized tests
-
-Please submit a pull request or open an issue.
-
-License
+## License
 
 MIT License © 2026
